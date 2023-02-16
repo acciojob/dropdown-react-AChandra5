@@ -164,7 +164,7 @@ function App() {
 	return (
 		<div id="main">
 
-			<select name="State" id="state" onChange={handleStateChange} value={}>
+			<select name="State" id="state" onChange={handleStateChange} >
 				{states.map((item, index) => <option value={index} key={uniqid()}>{item.name}</option>)}
 
 			</select>
